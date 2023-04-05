@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Page | Kelfin Website</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		nav{
+			float: left;
+			display: flex;
+			margin: auto;
+			width: 100%;
+			font-family: cambria;
+			box-shadow: 0px 2px 2px 0px #ccc;
+		}
+		nav ul {
+	        padding: 0 20px;
+	        list-style: none;
+	        position: relative;
+	        display: inline-table;
+	        width: 100%;
+     	}
+     	nav ul li{
+     		float: left;
+     	}
+     	nav ul .homepage{
+     		margin-left: 25%;
+     	}
+     	nav ul li a{
+     		display: block;
+     		text-decoration: none;
+     		padding: 25px;
+     		color: #b718cc;
+     		font-weight: bold;
+     		border-bottom: 2px solid transparent;
+     		transition: all 0.3s ease-in-out;
+     	}
+     	nav ul li a:hover{
+     		border-color: black;
+     		
+     	}
+     	.gambar{
+     		width: 100%;
+     		float: left;
+               padding-bottom: 50px;
+     	}
+     	p{
+     		float: left;
+     		text-shadow: 2px 2px 4px #000000;
+     		color: white;
+     		margin-top: 4%;
+     	}
+     	
+     	footer {
+     		float: left;
+     		width: 100%;
+			background-color: #333;
+			color: #fff;
+			font-size: 16px;
+		}
+		.footer{
+			margin-left: 40%;
+		}
+          .form-input{
+               float: left;
+               width: 58%;
+               margin-top: 3%;
+               margin-left: 15%;
+          }
+          input[type=text]{
+               float: left;
+               width:100%;
+               margin-top: 1%;
+               padding: 10px;
+               border:1px solid #ccc;
+          }
+          textarea{
+               float: left;
+               width:100%;
+               margin-top: 1%;
+               padding: 10px;
+               height: 100px;
+               border:1px solid #ccc;    
+          }
+          input[type=button]{
+               float: left;
+               width:103%;
+               margin-top: 4%;
+               padding: 10px;
+               border:none;
+               background-color: transparent;
+               font-family: verdana;
+               font-weight: bold;
+               border:1px solid black;    
+          }
+          input[type=button]:hover{
+               background-color: #328ae3;
+               color: white;
+               border: none;
+               cursor: pointer;
+               box-shadow: 1px 1px 1px 0px #ccc;
+          }
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="homepage"><a href="home.html">Homepage</a></li>
+			<li><a href="about.html">About Page</a></li>
+			<li><a href="projek.html">Experience Page</a></li>
+			<li><a href="">Contact Page</a></li>
+	</ul>
+	</nav>
+	<div class="gambar">
+		<h1 style="
+               float: left;
+               font-family: arial;
+               margin-left: 15%;
+               margin-top: 4%;
+               color: #b718cc;
+               border-bottom: 2px solid #ccc;
+          ">Contact</h1> 
+          <span style="
+               float: left;
+               width: 80%;
+               margin-left: 15%;
+               margin-top: 1%;
+               font-family: verdana;">
+               Jika ingin mengirimi Pesan Harap mengisi di bawah ini :
+          </span>
+
+          <div class="form-input">
+               <span style="font-family: verdana; float: left; margin-top: 3%;" >Name :</span><br>
+               <input type="text" name="name">
+
+               <span style="font-family: verdana; float: left; margin-top: 3%;">Phone :</span><br>
+               <input type="text" name="name">
+
+               <span style="font-family: verdana; float: left; margin-top: 3%;">Email :</span><br>
+               <input type="text" name="name">
+
+               <span style="font-family: verdana; float: left; margin-top: 3%;">Message :</span><br>
+               <textarea></textarea>
+
+               <input type="button" value="Send Message" name="">
+          </div>
+	</div>
+
+
+	<footer>
+		<p class="footer">&copy; Copyright by | Kelfin Maulana</p>
+	</footer>
+
+
+</body>
+</html>

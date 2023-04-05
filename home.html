@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page | Kelfin Website</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		nav{
+			float: left;
+			display: flex;
+			margin: auto;
+			width: 100%;
+			font-family: cambria;
+			box-shadow: 0px 2px 2px 0px #ccc;
+		}
+		nav ul {
+	        padding: 0 20px;
+	        list-style: none;
+	        position: relative;
+	        display: inline-table;
+	        width: 100%;
+     	}
+     	nav ul li{
+     		float: left;
+     	}
+     	nav ul .homepage{
+     		margin-left: 25%;
+     	}
+     	nav ul li a{
+     		display: block;
+     		text-decoration: none;
+     		padding: 25px;
+     		color: #b718cc;
+     		font-weight: bold;
+     		border-bottom: 2px solid transparent;
+     		transition: all 0.3s ease-in-out;
+     	}
+     	nav ul li a:hover{
+     		border-color: black;
+     		
+     	}
+     	.gambar{
+     		width: 100%;
+     		float: left;
+     		background-image: url(poto.jpg);
+     		background-size: cover;
+     		background-repeat: no-repeat;
+     		height: 500px;
+     		opacity: 0.7;
+     	}
+     	.box1{
+     		float: left;
+     		width: 45%;
+     		margin-left: 250px;
+     		margin-top: 2%;
+     	}
+     	.span1{
+     		color: white;
+     		float: left;
+     		text-shadow: 2px 2px 4px #000000;
+     		margin-top: 10px;
+     		line-height: 0.9;
+     		font-size: 40pt;
+     		font-family: cambria;
+     	}
+     	.span2{
+     		color: white;
+     		float: left;
+     		text-shadow: 2px 2px 4px #000000;
+     		margin-top: 10px;
+     		font-size: 40pt;
+     		font-family: cambria;
+     	}
+     	p{
+     		float: left;
+     		text-shadow: 2px 2px 4px #000000;
+     		color: white;
+     		margin-top: 4%;
+     	}
+     	input[type=button]{
+     		float: left;
+     		width: 50%;
+     		margin-top: 2%;
+     		padding: 10px;
+     		font-family: arial;
+     		font-weight: bold;
+     		color: white;
+     		border: 1px solid white;
+     		background-color: transparent;
+     	}
+     	input[type=button]:hover{
+     		color: black;
+     		background-color: #31aaeb;
+     		cursor: pointer;
+     		border: none;
+     		box-shadow: 1px 0px 1px 0px #ccc;
+     	}
+
+     	footer {
+     		float: left;
+     		width: 100%;
+			background-color: #333;
+			color: #fff;
+			font-size: 16px;
+		}
+		.footer{
+			margin-left: 40%;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="homepage"><a href="">Homepage</a></li>
+			<li><a href="about.html">About Page</a></li>
+			<li><a href="projek.html">Experience Page</a></li>
+			<li><a href="kontak.html">Contact Page</a></li>
+	</ul>
+	</nav>
+	<div class="gambar">
+		<div class="box1">
+			<span style="color: white; text-shadow: 2px 2px 4px #000000;">Hallo, nama saya</span><br>
+			<span class="span1">Kelfin Maulana.</span><br>
+			<span class="span2">Saya Membuat Website.</span><br>
+			<p>
+				Saya seorang mahasiswa yang kuliah di Institut Teknologi Indonesia
+				yang mengambil jurusan Teknik Informatika. Dan Saya merupakan Front End Web Developer.
+			</p>
+			<input type="button" value="Resume saya" name="">
+		</div>
+	</div>
+
+
+	<footer>
+		<p class="footer">&copy; Copyright by | Kelfin Maulana</p>
+	</footer>
+
+
+</body>
+</html>
